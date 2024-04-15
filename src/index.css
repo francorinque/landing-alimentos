@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn{
+    @apply  rounded-md py-1 w-[100px] mt-2 text-[#042f09] hover:scale-[0.95]
+}

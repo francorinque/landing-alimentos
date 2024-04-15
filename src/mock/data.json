@@ -1,0 +1,38 @@
+{
+  "MENU_LINKS": [
+    {
+      "id": 1,
+      "text": "Sobre nosotros",
+      "to": null
+    },
+    {
+      "id": 2,
+      "text": "Servicios",
+      "to": null
+    },
+    {
+      "id": 3,
+      "text": "Portafolio",
+      "to": null
+    },
+    {
+      "id": 4,
+      "text": "Premios",
+      "to": null
+    }
+  ],
+  "hero": {
+    "title": "Reimagine your workspace",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "solutions": {
+    "title": "Solutions for your dream",
+    "items": [
+      {
+        "id": 1,
+        "title": "Architecture",
+        "desc": "Add multiple links in instagram instead of just one."
+      }
+    ]
+  }
+}
