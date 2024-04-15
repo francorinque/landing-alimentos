@@ -15,7 +15,7 @@ const Hero = () => {
         <p className="mt-2 max-w-[500px] text-pretty">{data.hero.subtitle}</p>
         <Button>Ver más</Button>
       </div>
-      <div className="flex-1 max-w-[700px] h-[400px] md:rotate-[-2deg] rounded-md overflow-hidden">
+      <div className="flex-1 max-w-[700px] h-[400px] rounded-md overflow-hidden">
         <img
           src={heroImg}
           alt="picture"

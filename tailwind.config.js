@@ -14,7 +14,8 @@ export default {
         "custom-gradient": "linear-gradient(45deg, #4db82f, #14a51e)", // Define tu gradiente personalizado aquí
       }),
       gridTemplateColumns: {
-        "solutions-grid": "repeat(auto-fit,minmax(250px,350px))",
+        "solutions-grid": "repeat(auto-fit,minmax(250px,450px))",
+        "gallery-grid": "repeat(auto-fit,minmax(250px,450px))",
       },
     },
   },
