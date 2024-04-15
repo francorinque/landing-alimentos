@@ -7,7 +7,7 @@ const Hero = () => {
     <section
       className="
     flex flex-col gap-5 md:flex-row md:items-center md:justify-end
-    py-[100px]
+    
     "
     >
       <div className="flex-1 px-2 py-5">

@@ -9,8 +9,12 @@ function App() {
     <main className="bg-[#F5F5F5] w-full min-h-screen">
       <NavBar />
       <div className="px-2 max-w-[1440px] mx-auto">
-        <Hero />
-        <Solutions />
+        <section className="py-[80px]">
+          <Hero />
+        </section>
+        <section className="py-[80px]">
+          <Solutions />
+        </section>
       </div>
     </main>
   );

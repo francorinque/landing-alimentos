@@ -32,6 +32,16 @@
         "id": 1,
         "title": "Architecture",
         "desc": "Add multiple links in instagram instead of just one."
+      },
+      {
+        "id": 2,
+        "title": "Interior design",
+        "desc": "Easy communication with your clients."
+      },
+      {
+        "id": 3,
+        "title": "Real state",
+        "desc": "Capture leads and grow your business with them."
       }
     ]
   }
