@@ -8,16 +8,16 @@ import Layout from "./components/ui/Layout";
 
 function App() {
   return (
-    <main className="bg-[#F5F5F5] w-full min-h-screen">
+    <main className=" main-gradient w-full min-h-screen">
       <NavBar />
       <Layout>
-        <section className="py-[80px]">
+        <section className="py-[90px]">
           <Hero />
         </section>
-        <section className="py-[80px]">
+        <section className="py-[90px]">
           <Solutions />
         </section>
-        <section className="py-[80px]">
+        <section className="py-[90px]">
           <Gallery />
         </section>
       </Layout>

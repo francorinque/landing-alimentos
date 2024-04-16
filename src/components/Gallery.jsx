@@ -38,7 +38,7 @@ const Gallery = () => {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-10 text-center">{gallery.title}</h2>
+      <h2 className="subtitle title-gradient">{gallery.title}</h2>
       <div className="grid grid-cols-gallery-grid gap-5 place-content-center">
         {photos.map((photo) => (
           <img

@@ -2,50 +2,50 @@
   "MENU_LINKS": [
     {
       "id": 1,
-      "text": "Sobre nosotros",
-      "to": null
+      "text": "Inicio",
+      "href": "/"
     },
     {
       "id": 2,
-      "text": "Servicios",
-      "to": null
+      "text": "Soluciones",
+      "href": "#"
     },
     {
       "id": 3,
-      "text": "Portafolio",
-      "to": null
+      "text": "Galeria",
+      "href": "#"
     },
     {
       "id": 4,
       "text": "Premios",
-      "to": null
+      "href": "#"
     }
   ],
   "hero": {
-    "title": "Reimagine your workspace",
+    "title": "Reimagina tu espacio de trabajo",
     "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "solutions": {
-    "title": "Solutions for your dream",
+    "title": "Soluciones para tu sueño",
     "items": [
       {
         "id": 1,
-        "title": "Architecture",
-        "desc": "Add multiple links in instagram instead of just one."
+        "title": "Arquitectura",
+        "desc": "Agrega múltiples enlaces en Instagram en lugar de solo uno."
       },
       {
         "id": 2,
-        "title": "Interior design",
-        "desc": "Easy communication with your clients."
+        "title": "Diseño interior",
+        "desc": "Fácil comunicación con tus clientes."
       },
       {
         "id": 3,
-        "title": "Real state",
-        "desc": "Capture leads and grow your business with them."
+        "title": "Buenas raíces",
+        "desc": "Capte clientes potenciales y haga crecer su negocio con ellos."
       }
     ]
   },
   "gallery": {
-    "title": "Selected Works"
+    "title": "Trabajos seleccionados"
   }
 }

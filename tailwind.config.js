@@ -4,15 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#e4effb",
-        secondary: "#14a51e",
+        primary: "#e7e7e7",
+        secondary: "#121111",
       },
       spacing: {
         header: "78px",
       },
-      backgroundImage: (theme) => ({
-        "custom-gradient": "linear-gradient(45deg, #4db82f, #14a51e)", // Define tu gradiente personalizado aquí
-      }),
       gridTemplateColumns: {
         "solutions-grid": "repeat(auto-fit,minmax(250px,450px))",
         "gallery-grid": "repeat(auto-fit,minmax(250px,450px))",

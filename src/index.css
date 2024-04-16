@@ -5,5 +5,18 @@
 
 
 .btn{
-    @apply  rounded-md py-1 w-[100px] mt-2 text-[#042f09] hover:scale-[0.95]
+    @apply  rounded-md py-1 w-[100px] mt-2 text-primary hover:scale-[0.95]
+}
+
+.subtitle{
+    @apply text-2xl md:text-3xl font-semibold text-center mb-10
+}
+
+.main-gradient{
+    @apply bg-gradient-to-r from-[#dcfcdd] to-[#bae1bc]
+    /* @apply bg-gradient-to-r from-[#dcfcdd] to-[#85f08c] */
+}
+
+.title-gradient{
+    @apply  bg-gradient-to-r from-green-700 to-green-950 text-transparent bg-clip-text
 }
