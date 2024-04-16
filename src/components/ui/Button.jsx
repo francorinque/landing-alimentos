@@ -1,4 +1,4 @@
-const Button = ({ children }) => {
-  return <button className="bg-custom-gradient btn">{children}</button>;
+const Button = ({ children, css }) => {
+  return <button className={`btn ${css}`}>{children}</button>;
 };
 export default Button;

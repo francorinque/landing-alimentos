@@ -4,19 +4,25 @@
 
 
 
+html{
+    scroll-padding: 100px;
+    scroll-behavior: smooth;
+}
+
+
 .btn{
-    @apply  rounded-md py-1 w-[100px] mt-2 text-primary hover:scale-[0.95]
+    @apply  rounded-custom py-1 px-2 min-w-[100px] text-apple-50 font-semibold hover:scale-[0.95] 
+    bg-gradient-to-r from-apple-300 to-apple-600 ease-linear duration-200
 }
 
 .subtitle{
-    @apply text-2xl md:text-3xl font-semibold text-center mb-10
+    @apply text-2xl md:text-3xl font-semibold text-center mb-4
 }
 
 .main-gradient{
     @apply bg-gradient-to-r from-[#dcfcdd] to-[#bae1bc]
-    /* @apply bg-gradient-to-r from-[#dcfcdd] to-[#85f08c] */
 }
 
 .title-gradient{
-    @apply  bg-gradient-to-r from-green-700 to-green-950 text-transparent bg-clip-text
+    @apply  bg-gradient-to-r from-apple-300 to-apple-700 text-transparent bg-clip-text
 }

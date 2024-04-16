@@ -3,29 +3,24 @@
     {
       "id": 1,
       "text": "Inicio",
-      "href": "/"
+      "href": "#inicio"
     },
     {
       "id": 2,
       "text": "Soluciones",
-      "href": "#"
+      "href": "#soluciones"
     },
     {
       "id": 3,
       "text": "Galeria",
-      "href": "#"
-    },
-    {
-      "id": 4,
-      "text": "Premios",
-      "href": "#"
+      "href": "#galeria"
     }
   ],
-  "hero": {
+  "01": {
     "title": "Reimagina tu espacio de trabajo",
     "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
-  "solutions": {
+  "02": {
     "title": "Soluciones para tu sueño",
     "items": [
       {
@@ -45,7 +40,7 @@
       }
     ]
   },
-  "gallery": {
+  "03": {
     "title": "Trabajos seleccionados"
   }
 }

@@ -1,33 +1,13 @@
-import { useState } from "react";
 import { BsJustify, BsXLg } from "react-icons/bs";
 
-import Logo from "./ui/Logo";
+import useNav from "../hooks/useNav";
+
 import MenuDesktop from "./MenuDesktop";
 import MenuMobile from "./MenuMobile";
-import { useEffect } from "react";
+import Logo from "./ui/Logo";
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [hasScrolled, setHasScrolled] = useState(false);
-
-  useEffect(() => {
-    // Función para manejar el evento de scroll
-    const handleScroll = () => {
-      // Verifica si se ha hecho scroll más allá de una cierta cantidad (por ejemplo, 100px)
-      if (window.scrollY > 10) {
-        setHasScrolled(true);
-      } else {
-        setHasScrolled(false);
-      }
-    };
-    // Agregar el event listener para el scroll cuando se monta el componente
-    window.addEventListener("scroll", handleScroll);
-
-    // Remover el event listener cuando se desmonta el componente
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  const { isOpen, handleIsOpen, hasScrolled } = useNav();
 
   return (
     <header
@@ -41,11 +21,11 @@ const NavBar = () => {
       <Logo />
       <button
         className="text-2xl cursor-pointer z-50 text-secondary flex items-center justify-center md:hidden"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={handleIsOpen}
       >
         {isOpen ? <BsXLg /> : <BsJustify />}
       </button>
-      <MenuMobile isOpen={isOpen} />
+      <MenuMobile isOpen={isOpen} onClick={handleIsOpen} />
       <MenuDesktop />
     </header>
   );

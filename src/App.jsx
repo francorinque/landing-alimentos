@@ -1,24 +1,28 @@
-import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
-import Solutions from "./components/Solutions";
 import Layout from "./components/ui/Layout";
+import Solutions from "./components/Solutions";
+import Gallery from "./components/Gallery";
 
 // PLATAFORMA PARA LA REDUCCIÓN DE MERMAS EN LA DISTRIBUCIÓN DE ALIMENTACIÓN
 
 function App() {
   return (
-    <main className=" main-gradient w-full min-h-screen">
+    <main className=" main-gradient w-full min-h-screen min-w-[250px]">
       <NavBar />
       <Layout>
-        <section className="py-[90px]">
+        <section>
           <Hero />
         </section>
-        <section className="py-[90px]">
+        <section className="py-[150px]">
           <Solutions />
         </section>
         <section className="py-[90px]">
           <Gallery />
+        </section>
+        <section className="py-[90px]">
+          <Contact />
         </section>
       </Layout>
     </main>

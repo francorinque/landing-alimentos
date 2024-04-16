@@ -34,22 +34,21 @@ const photos = [
 ];
 
 const Gallery = () => {
-  const { gallery } = data;
-
   return (
-    <div>
-      <h2 className="subtitle title-gradient">{gallery.title}</h2>
+    <div id="galeria">
+      <h2 className="subtitle title-gradient">{data["03"].title}</h2>
       <div className="grid grid-cols-gallery-grid gap-5 place-content-center">
         {photos.map((photo) => (
           <img
             src={photo.url}
             alt={photo.alt}
             key={photo.id}
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full rounded-custom"
           />
         ))}
       </div>
     </div>
   );
 };
+
 export default Gallery;

@@ -1,12 +1,13 @@
 import data from "../mock/data.json";
 import CustomLink from "./ui/CustomLink";
 
-const MenuMobile = ({ isOpen }) => {
+const MenuMobile = ({ isOpen, onClick }) => {
   return (
     <div
       className={`${
         isOpen ? "flex" : "hidden"
       } bg-black/10 backdrop-blur-sm w-full h-screen fixed inset-0 z-40 md:hidden`}
+      onClick={onClick}
     >
       <ul
         className={`
@@ -25,9 +26,3 @@ const MenuMobile = ({ isOpen }) => {
   );
 };
 export default MenuMobile;
-
-// ${isOpen ? "flex" : "hidden"}
-// absolute z-10 right-0 top-header p-2
-// w-full md:flex flex-col gap-4  items-center bg-secondary shadow-md shadow-black/10
-// md:flex-row md:bg-transparent md:relative  md:w-[auto] md:p-0 md:right-0
-//  md:top-0 md:h-full md:shadow-none
