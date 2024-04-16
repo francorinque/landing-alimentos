@@ -32,7 +32,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animated")],
 };
 
 // 14a51e

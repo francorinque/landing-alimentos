@@ -36,7 +36,7 @@ const photos = [
 const Gallery = () => {
   return (
     <div id="galeria">
-      <h2 className="subtitle title-gradient">{data["03"].title}</h2>
+      <h2 className="subtitle title-gradient mb-10">{data["03"].title}</h2>
       <div className="grid grid-cols-gallery-grid gap-5 place-content-center">
         {photos.map((photo) => (
           <img

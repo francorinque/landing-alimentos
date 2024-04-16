@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="flex-1 px-2 py-5 flex flex-col items-center justify-cente">
         <h1
           className="text-4xl md:text-5xl text-balance max-w-[500px] font-bold
-          title-gradient leading-[1.5] md:leading-[1.6]  text-center"
+          title-gradient md:leading-[1.2] mb-4  text-center"
         >
           {data["01"].title}
         </h1>

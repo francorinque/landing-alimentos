@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Layout from "./components/ui/Layout";
 import Solutions from "./components/Solutions";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 // PLATAFORMA PARA LA REDUCCIÓN DE MERMAS EN LA DISTRIBUCIÓN DE ALIMENTACIÓN
 
@@ -21,10 +22,11 @@ function App() {
         <section className="py-[90px]">
           <Gallery />
         </section>
-        <section className="py-[90px]">
+        <section className="py-[70px]">
           <Contact />
         </section>
       </Layout>
+      <Footer />
     </main>
   );
 }

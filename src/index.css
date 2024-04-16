@@ -16,11 +16,11 @@ html{
 }
 
 .subtitle{
-    @apply text-2xl md:text-3xl font-semibold text-center mb-4
+    @apply text-2xl md:text-3xl font-semibold text-center
 }
 
 .main-gradient{
-    @apply bg-gradient-to-r from-[#dcfcdd] to-[#bae1bc]
+    @apply bg-apple-50
 }
 
 .title-gradient{

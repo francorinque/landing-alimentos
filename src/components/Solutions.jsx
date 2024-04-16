@@ -3,7 +3,7 @@ import data from "../mock/data.json";
 const Solutions = () => {
   return (
     <div id="soluciones">
-      <h2 className="subtitle title-gradient">{data["02"].title}</h2>
+      <h2 className="subtitle title-gradient mb-10">{data["02"].title}</h2>
       <div className="mt-4 grid grid-cols-solutions-grid gap-5 place-content-center">
         {data["02"].items.map((item) => (
           <div key={item.id} className="text-center">
