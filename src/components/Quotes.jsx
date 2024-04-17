@@ -26,7 +26,10 @@ const Quotes = () => {
   };
 
   return (
-    <div className="relative h-[300px] flex items-center justify-center flex-col ">
+    <div
+      className="relative h-[300px] flex items-center justify-center flex-col "
+      id="clientes"
+    >
       <div className="mb-5 flex items-center justify-center text-apple-500">
         <BsChatQuote size="30px" />
       </div>

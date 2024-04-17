@@ -14,7 +14,7 @@ const Footer = () => {
           <Logo />
         </div>
         {/* links */}
-        <ul className="flex gap-2 items-center justify-center my-5">
+        <ul className="flex gap-4 items-center justify-center my-5 flex-wrap md:flex-nowrap">
           {MENU_LINKS.map((link) => (
             <li key={link.id} className="text-sm">
               <CustomLink href={link.href}>{link.text}</CustomLink>
@@ -23,7 +23,7 @@ const Footer = () => {
         </ul>
       </div>
       {/* bottom */}
-      <div className="border-t border-neutral-50/10 mt-4 px-4 py-5  flex flex-col items-center justify-center md:flex-row md:justify-between">
+      <div className="w-full border-t border-neutral-50/10 mt-4 px-4 py-5  flex flex-col items-center justify-center md:flex-row md:justify-between">
         <p className="text-center">
           © {new Date().getFullYear()}. Todos los derechos reservados.
         </p>

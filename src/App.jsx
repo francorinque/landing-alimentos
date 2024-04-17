@@ -6,18 +6,19 @@ import Solutions from "./components/Solutions";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Quotes from "./components/Quotes";
-
-// PLATAFORMA PARA LA REDUCCIÓN DE MERMAS EN LA DISTRIBUCIÓN DE ALIMENTACIÓN
+import Stats from "./components/Stats";
+import GetStarted from "./components/GetStasted";
 
 function App() {
   return (
     <main className=" main-gradient w-full min-h-screen min-w-[250px]">
       <NavBar />
+      <section>
+        <Hero />
+        <Stats />
+      </section>
       <Layout>
-        <section>
-          <Hero />
-        </section>
-        <section className="py-[150px]">
+        <section className="py-[70px]">
           <Solutions />
         </section>
         <section className="py-[90px]">
@@ -28,6 +29,9 @@ function App() {
         </section>
         <section className="py-[90px]">
           <Quotes />
+        </section>
+        <section className="py-[90px]">
+          <GetStarted />
         </section>
       </Layout>
       <Footer />
