@@ -30,7 +30,29 @@
     "title": "Reimagina tu espacio de trabajo",
     "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "Ver más",
-    "img": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366245/hero-img.webp"
+    "img": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366245/hero-img.webp",
+    "items": [
+      {
+        "id": 1,
+        "number": "850",
+        "desc": "Example 1"
+      },
+      {
+        "id": 2,
+        "number": "578",
+        "desc": "Example 2"
+      },
+      {
+        "id": 3,
+        "number": "97",
+        "desc": "Example 3"
+      },
+      {
+        "id": 4,
+        "number": "24",
+        "desc": "Example 4"
+      }
+    ]
   },
   "section-two": {
     "title": "Soluciones para tu sueño",

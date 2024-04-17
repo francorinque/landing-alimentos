@@ -7,15 +7,18 @@ import MenuMobile from "./MenuMobile";
 import Logo from "./ui/Logo";
 
 const NavBar = () => {
-  const { isOpen, handleIsOpen } = useNav();
+  const { isOpen, handleIsOpen, hasScrolled } = useNav();
 
   return (
     <header
-      className="
-       fixed top-0 left-0 w-full z-50
-       px-5 flex justify-between items-center  
-       h-header  
-       bg-neutral-900 text-apple-50"
+      className={`
+      
+      fixed top-0 left-0 w-full z-50
+      px-5 flex justify-between items-center  
+      h-header  
+      text-apple-50
+       ${hasScrolled ? " bg-secondary" : "bg-transparent"}
+       `}
     >
       <Logo />
       <button
