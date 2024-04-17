@@ -24,7 +24,7 @@ export default {
         header: "78px",
       },
       gridTemplateColumns: {
-        "solutions-grid": "repeat(auto-fit,minmax(250px,450px))",
+        "solutions-grid": "repeat(auto-fit,minmax(250px,1fr))",
         "gallery-grid": "repeat(auto-fit,minmax(250px,450px))",
       },
       borderRadius: {

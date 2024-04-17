@@ -6,7 +6,8 @@
 
 html{
     scroll-padding: 100px;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth ;
+    font-family: 'montserrat', sans-serif;
 }
 
 
@@ -16,7 +17,7 @@ html{
 }
 
 .subtitle{
-    @apply text-2xl md:text-3xl font-semibold text-center
+    @apply text-2xl md:text-4xl font-bold text-center
 }
 
 .main-gradient{

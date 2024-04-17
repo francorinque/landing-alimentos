@@ -3,7 +3,7 @@
     {
       "id": 1,
       "text": "Inicio",
-      "href": "#inicio"
+      "href": "#"
     },
     {
       "id": 2,
@@ -16,31 +16,78 @@
       "href": "#galeria"
     }
   ],
-  "01": {
+  "logo": "https://res.cloudinary.com/dj0postuh/image/upload/v1713367161/cjwpvy7c518z6nsipw2n.svg",
+  "seccion1-hero": {
     "title": "Reimagina tu espacio de trabajo",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cta": "Ver más",
+    "img": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366245/auavo7mpqjv0jq7g5ddo.webp"
   },
-  "02": {
+  "seccion2-solutions": {
     "title": "Soluciones para tu sueño",
     "items": [
       {
         "id": 1,
         "title": "Arquitectura",
-        "desc": "Agrega múltiples enlaces en Instagram en lugar de solo uno."
+        "desc": "Agrega múltiples enlaces en Instagram en lugar de solo uno.",
+        "icon": "arquitectura"
       },
       {
         "id": 2,
         "title": "Diseño interior",
-        "desc": "Fácil comunicación con tus clientes."
+        "desc": "Fácil comunicación con tus clientes.",
+        "icon": "diseno"
       },
       {
         "id": 3,
         "title": "Buenas raíces",
-        "desc": "Capte clientes potenciales y haga crecer su negocio con ellos."
+        "desc": "Capte clientes potenciales y haga crecer su negocio con ellos.",
+        "icon": "raices"
       }
     ]
   },
-  "03": {
-    "title": "Trabajos seleccionados"
-  }
+  "seccion3-gallery": {
+    "title": "Trabajos seleccionados",
+    "photos": [
+      {
+        "id": 1,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/m97zli5gtgopz4hdpbld.webp",
+        "alt": "vegetales"
+      },
+      {
+        "id": 2,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/edvjtqtyxsg6kfefwt0c.webp",
+        "alt": "vegetales"
+      },
+      {
+        "id": 3,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/z7ipbnwsbauo6cr3wmit.webp",
+        "alt": "vegetales"
+      },
+      {
+        "id": 4,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/tt0rwabi8imforkyjqeu.webp",
+        "alt": "vegetales y carne"
+      },
+      {
+        "id": 5,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/rje3cxle3ov7obgmqs2j.webp",
+        "alt": "agricultor"
+      },
+
+      {
+        "id": 6,
+        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/w7efreqwcvfrir8wttah.webp",
+        "alt": "personas sonriendo"
+      }
+    ]
+  },
+  "seccion4-contact": {
+    "title": "¿Tienes curiosidad?"
+  },
+  "seccion5-quotes": [
+    "Increíble servicio al cliente y productos de alta calidad. ¡Definitivamente recomendaré esta empresa a todos mis amigos y familiares!",
+    "La experiencia de compra fue fluida y sin complicaciones. Estoy muy impresionado con la atención al detalle y la rapidez en la entrega",
+    "¡Finalmente encontré lo que estaba buscando! Los productos superaron mis expectativas y el equipo de soporte fue excepcional en todo momento."
+  ]
 }

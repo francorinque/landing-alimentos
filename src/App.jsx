@@ -5,6 +5,7 @@ import Layout from "./components/ui/Layout";
 import Solutions from "./components/Solutions";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import Quotes from "./components/Quotes";
 
 // PLATAFORMA PARA LA REDUCCIÓN DE MERMAS EN LA DISTRIBUCIÓN DE ALIMENTACIÓN
 
@@ -22,8 +23,11 @@ function App() {
         <section className="py-[90px]">
           <Gallery />
         </section>
-        <section className="py-[70px]">
+        <section className="py-[90px]">
           <Contact />
+        </section>
+        <section className="py-[90px]">
+          <Quotes />
         </section>
       </Layout>
       <Footer />

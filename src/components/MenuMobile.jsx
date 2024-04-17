@@ -18,7 +18,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
       `}
       >
         {data["MENU_LINKS"].map((link) => (
-          <li key={link.id} className="p-2">
+          <li key={link.id} className="p-2" onClick={onClick}>
             <CustomLink href={link.href}>{link.text}</CustomLink>
           </li>
         ))}

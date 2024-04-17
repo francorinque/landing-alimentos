@@ -1,11 +1,10 @@
 import data from "../mock/data.json";
-import heroImg from "../assets/hero-img.webp";
 import Button from "./ui/Button";
 
 const Hero = () => {
   return (
     <div
-      id="inicio"
+      id="#"
       className="
       flex flex-col justify-center gap-5 lg:flex-row lg:items-center lg:justify-end
       "
@@ -16,17 +15,17 @@ const Hero = () => {
           className="text-4xl md:text-5xl text-balance max-w-[500px] font-bold
           title-gradient md:leading-[1.2] mb-4  text-center"
         >
-          {data["01"].title}
+          {data["seccion1-hero"].title}
         </h1>
         <p className="mt-2 max-w-[500px] text-pretty  text-center">
-          {data["01"].subtitle}
+          {data["seccion1-hero"].subtitle}
         </p>
-        <Button css="mt-4">Ver más</Button>
+        <Button css="mt-4">{data["seccion1-hero"].cta}</Button>
       </div>
       {/* img */}
       <div className="flex-1 max-w-[700px] h-[400px] mx-auto rounded-custom overflow-hidden">
         <img
-          src={heroImg}
+          src={data["seccion1-hero"].img}
           alt="picture"
           className="w-full object-cover h-full"
         />
