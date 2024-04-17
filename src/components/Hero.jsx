@@ -15,7 +15,7 @@ const Hero = () => {
         backgroundSize: "cover",
       }}
     >
-      <div className="absolute inset-0 bg-black/50 z-10"></div>
+      <div className="absolute inset-0 bg-black/70 z-10"></div>
       {/* text */}
       <div className="flex-1  z-20 px-2 py-5 flex flex-col items-center justify-center">
         <h1

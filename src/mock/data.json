@@ -14,6 +14,16 @@
       "id": 3,
       "text": "Galeria",
       "href": "#galeria"
+    },
+    {
+      "id": 4,
+      "text": "Clientes",
+      "href": "#clientes"
+    },
+    {
+      "id": 5,
+      "text": "Comenzar",
+      "href": "#comenzar"
     }
   ],
   "FOOTER_SOCIAL": [
@@ -121,5 +131,13 @@
     "Increíble servicio al cliente y productos de alta calidad. ¡Definitivamente recomendaré esta empresa a todos mis amigos y familiares!",
     "La experiencia de compra fue fluida y sin complicaciones. Estoy muy impresionado con la atención al detalle y la rapidez en la entrega",
     "¡Finalmente encontré lo que estaba buscando! Los productos superaron mis expectativas y el equipo de soporte fue excepcional en todo momento."
-  ]
+  ],
+  "section-six": {
+    "title": "Empieza a trabajar con nosotros",
+    "link": {
+      "text": "Comenzar",
+      "href": "#"
+    },
+    "img": "https://res.cloudinary.com/dj0postuh/image/upload/v1713393893/getstarted.webp"
+  }
 }
