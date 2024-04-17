@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <header
       className="
-      fixed top-0 left-0 w-full
+       fixed top-0 left-0 w-full z-50
        px-5 flex justify-between items-center  
        h-header  
        bg-neutral-900 text-apple-50"
@@ -21,7 +21,7 @@ const NavBar = () => {
       <button
         className="
         text-apple-50
-        text-2xl cursor-pointer z-[999]  flex items-center justify-center md:hidden"
+        text-2xl cursor-pointer z-50  flex items-center justify-center md:hidden"
         onClick={handleIsOpen}
       >
         {isOpen ? <BsXLg /> : <BsJustify />}

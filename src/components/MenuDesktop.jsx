@@ -14,7 +14,7 @@ const MenuDesktop = () => {
       ))}
       <li>
         <Button>
-          <a href="mailto:9Gp2K@example.com">Contactar</a>
+          <a href={data["section-four"].link}>Contactar</a>
         </Button>
       </li>
     </ul>

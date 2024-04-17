@@ -15,17 +15,17 @@ const Hero = () => {
           className="text-4xl md:text-5xl text-balance max-w-[500px] font-bold
           title-gradient md:leading-[1.2] mb-4  text-center"
         >
-          {data["seccion1-hero"].title}
+          {data["section-one"].title}
         </h1>
         <p className="mt-2 max-w-[500px] text-pretty  text-center">
-          {data["seccion1-hero"].subtitle}
+          {data["section-one"].subtitle}
         </p>
-        <Button css="mt-4">{data["seccion1-hero"].cta}</Button>
+        <Button css="mt-4">{data["section-one"].cta}</Button>
       </div>
       {/* img */}
       <div className="flex-1 max-w-[700px] h-[400px] mx-auto rounded-custom overflow-hidden">
         <img
-          src={data["seccion1-hero"].img}
+          src={data["section-one"].img}
           alt="picture"
           className="w-full object-cover h-full"
         />

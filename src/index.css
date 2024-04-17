@@ -10,7 +10,6 @@ html{
     font-family: 'montserrat', sans-serif;
 }
 
-
 .btn{
     @apply  rounded-custom py-1 px-2 min-w-[100px] text-apple-50 font-semibold hover:scale-[0.95] 
     bg-gradient-to-r from-apple-300 to-apple-600 ease-linear duration-200
@@ -27,3 +26,5 @@ html{
 .title-gradient{
     @apply  bg-gradient-to-r from-apple-300 to-apple-700 text-transparent bg-clip-text
 }
+
+

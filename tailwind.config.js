@@ -25,7 +25,7 @@ export default {
       },
       gridTemplateColumns: {
         "solutions-grid": "repeat(auto-fit,minmax(250px,1fr))",
-        "gallery-grid": "repeat(auto-fit,minmax(250px,450px))",
+        "gallery-grid": "repeat(auto-fit,minmax(250px,400px))",
       },
       borderRadius: {
         custom: "4px",

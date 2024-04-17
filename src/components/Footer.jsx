@@ -4,7 +4,7 @@ import Logo from "./ui/Logo";
 import CustomLink from "./ui/CustomLink";
 
 const Footer = () => {
-  const { MENU_LINKS } = data;
+  const { MENU_LINKS, FOOTER_SOCIAL } = data;
 
   return (
     <footer className="bg-neutral-900 text-apple-50 py-10 px-2">
@@ -23,10 +23,17 @@ const Footer = () => {
         </ul>
       </div>
       {/* bottom */}
-      <div className="border-t border-neutral-50/10 mt-4 py-5">
+      <div className="border-t border-neutral-50/10 mt-4 px-4 py-5  flex flex-col items-center justify-center md:flex-row md:justify-between">
         <p className="text-center">
           © {new Date().getFullYear()}. Todos los derechos reservados.
         </p>
+        <div className="flex items-center justify-center gap-4 mt-4">
+          {FOOTER_SOCIAL.map((item) => (
+            <a href={item.href} key={item.id}>
+              <img src={item.icon} alt={item.title} />
+            </a>
+          ))}
+        </div>
       </div>
     </footer>
   );

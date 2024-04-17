@@ -16,37 +16,46 @@
       "href": "#galeria"
     }
   ],
+  "FOOTER_SOCIAL": [
+    {
+      "id": 1,
+      "text": "LinkedIn",
+      "title": "LinkedIn",
+      "href": "#",
+      "icon": "https://res.cloudinary.com/dj0postuh/image/upload/f_auto,q_auto/v1/icons/jwsoqz6psgevozuivwry"
+    }
+  ],
   "logo": "https://res.cloudinary.com/dj0postuh/image/upload/v1713367161/cjwpvy7c518z6nsipw2n.svg",
-  "seccion1-hero": {
+  "section-one": {
     "title": "Reimagina tu espacio de trabajo",
     "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "Ver más",
     "img": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366245/auavo7mpqjv0jq7g5ddo.webp"
   },
-  "seccion2-solutions": {
+  "section-two": {
     "title": "Soluciones para tu sueño",
     "items": [
       {
         "id": 1,
         "title": "Arquitectura",
         "desc": "Agrega múltiples enlaces en Instagram en lugar de solo uno.",
-        "icon": "arquitectura"
+        "icon": "https://res.cloudinary.com/dj0postuh/image/upload/f_auto,q_auto/v1/icons/xq9reerpdggpbbjv46xx"
       },
       {
         "id": 2,
         "title": "Diseño interior",
         "desc": "Fácil comunicación con tus clientes.",
-        "icon": "diseno"
+        "icon": "https://res.cloudinary.com/dj0postuh/image/upload/f_auto,q_auto/v1/icons/qwfumt6qdls1qa5k9jdl"
       },
       {
         "id": 3,
         "title": "Buenas raíces",
         "desc": "Capte clientes potenciales y haga crecer su negocio con ellos.",
-        "icon": "raices"
+        "icon": "https://res.cloudinary.com/dj0postuh/image/upload/f_auto,q_auto/v1/icons/qxokkzrrm05mxkhgies2"
       }
     ]
   },
-  "seccion3-gallery": {
+  "section-three": {
     "title": "Trabajos seleccionados",
     "photos": [
       {
@@ -82,10 +91,11 @@
       }
     ]
   },
-  "seccion4-contact": {
-    "title": "¿Tienes curiosidad?"
+  "section-four": {
+    "title": "¿Tienes curiosidad?",
+    "link": "mailto:9Gp2K@example.com"
   },
-  "seccion5-quotes": [
+  "section-five": [
     "Increíble servicio al cliente y productos de alta calidad. ¡Definitivamente recomendaré esta empresa a todos mis amigos y familiares!",
     "La experiencia de compra fue fluida y sin complicaciones. Estoy muy impresionado con la atención al detalle y la rapidez en la entrega",
     "¡Finalmente encontré lo que estaba buscando! Los productos superaron mis expectativas y el equipo de soporte fue excepcional en todo momento."

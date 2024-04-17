@@ -12,11 +12,11 @@ const icons = {
 const Solutions = () => {
   return (
     <div id="soluciones">
-      <h2 className="subtitle title-gradient mb-10">
-        {data["seccion2-solutions"].title}
+      <h2 className="subtitle title-gradient mb-[70px]">
+        {data["section-two"].title}
       </h2>
       <div className="mt-4 grid grid-cols-solutions-grid gap-8 place-content-center">
-        {data["seccion2-solutions"].items.map((item) => (
+        {data["section-two"].items.map((item) => (
           <div key={item.id} className="text-center">
             <div
               className="
@@ -29,7 +29,7 @@ const Solutions = () => {
               mb-4 mx-auto
             "
             >
-              {icons[item.icon]}
+              <img src={item.icon} alt="icono" />
             </div>
             <h3 className="font-semibold text-lg">{item.title}</h3>
             <p className="text-pretty text-sm md:text-md my-1  max-w-[350px] mx-auto">
