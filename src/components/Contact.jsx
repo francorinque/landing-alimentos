@@ -4,7 +4,7 @@ import Button from "./ui/Button";
 
 const Contact = () => {
   return (
-    <div className="bg-gradient-to-r from-apple-50 to-apple-100 h-[300px] flex items-center justify-center flex-col rounded-custom">
+    <div className="bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-900 h-[300px] flex items-center justify-center flex-col rounded-custom">
       <h2 className="subtitle title-gradient mb-5">
         {data["section-four"].title}
       </h2>
@@ -19,3 +19,5 @@ const Contact = () => {
   );
 };
 export default Contact;
+
+// from-apple-50 to-apple-100

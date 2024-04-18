@@ -39,7 +39,10 @@
   "section-one": {
     "title": "Reimagina tu espacio de trabajo",
     "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "cta": "Ver más",
+    "cta": {
+      "text": "Ver más",
+      "href": "#"
+    },
     "img": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366245/hero-img.webp",
     "items": [
       {

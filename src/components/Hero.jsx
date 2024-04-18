@@ -27,7 +27,11 @@ const Hero = () => {
         <p className="mt-2 max-w-[700px] text-pretty  text-center text-apple-50">
           {data["section-one"].subtitle}
         </p>
-        <Button css="mt-4">{data["section-one"].cta}</Button>
+        <Button css="mt-4">
+          <a href={data["section-one"].cta.href}>
+            {data["section-one"].cta.text}
+          </a>
+        </Button>
       </div>
     </div>
   );
