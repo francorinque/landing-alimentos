@@ -19,12 +19,12 @@ const Hero = () => {
       {/* text */}
       <div className="flex-1  z-20 px-2 py-5 flex flex-col items-center justify-center">
         <h1
-          className="text-4xl md:text-5xl text-balance max-w-[700px] font-bold
+          className="text-4xl md:text-5xl text-balance max-w-[850px] font-bold
           title-gradient md:leading-[1.2] mb-4  text-center"
         >
           {data["section-one"].title}
         </h1>
-        <p className="mt-2 max-w-[700px] text-pretty  text-center text-apple-50">
+        <p className="mt-2 max-w-[600px] text-pretty  text-center text-apple-50">
           {data["section-one"].subtitle}
         </p>
         <Button css="mt-4">
