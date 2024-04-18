@@ -3,10 +3,8 @@ const CustomLink = ({ href, children }) => {
     <a
       href={href}
       className={`
-      cursor-pointer  p-2  text-apple-50 hover:text-apple-800
-     
+      cursor-pointer  p-2  text-apple-50  hover:text-apple-200
       `}
-      onClick={() => setActiveLink(children)}
     >
       {children}
     </a>

@@ -1,7 +1,7 @@
 import data from "../mock/data.json";
 
-import Logo from "./ui/Logo";
 import CustomLink from "./ui/CustomLink";
+import Logo from "./ui/Logo";
 
 const Footer = () => {
   const { MENU_LINKS, FOOTER_SOCIAL } = data;
