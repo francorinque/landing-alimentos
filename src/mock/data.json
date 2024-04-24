@@ -3,27 +3,44 @@
     {
       "id": 1,
       "text": "Inicio",
-      "href": "#"
+      "href": "#",
+      "isExternal": false
     },
     {
       "id": 2,
       "text": "Soluciones",
-      "href": "#soluciones"
+      "href": "#soluciones",
+      "isExternal": false
     },
     {
       "id": 3,
       "text": "Galeria",
-      "href": "#galeria"
+      "href": "#galeria",
+      "isExternal": false
     },
     {
       "id": 4,
       "text": "Clientes",
-      "href": "#clientes"
+      "href": "#clientes",
+      "isExternal": false
     },
     {
       "id": 5,
       "text": "Comenzar",
-      "href": "#comenzar"
+      "href": "#comenzar",
+      "isExternal": false
+    },
+    {
+      "id": 6,
+      "text": "Blog",
+      "href": "https://midu.dev/",
+      "isExternal": true
+    },
+    {
+      "id": 7,
+      "text": "Proyectos",
+      "href": "#proyectos",
+      "isExternal": false
     }
   ],
   "FOOTER_SOCIAL": [
@@ -127,15 +144,38 @@
     ]
   },
   "section-four": {
+    "title": "Nuestros proyectos",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Proyecto 1",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713986215/u9nqnopc95b5tfas3e54.webp",
+          "alt": "projecto 1"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Proyecto 2",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": {
+          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713986215/u9nqnopc95b5tfas3e54.webp",
+          "alt": "projecto 2"
+        }
+      }
+    ]
+  },
+  "section-five": {
     "title": "¿Tienes curiosidad?",
     "link": "mailto:9Gp2K@example.com"
   },
-  "section-five": [
+  "section-six": [
     "Increíble servicio al cliente y productos de alta calidad. ¡Definitivamente recomendaré esta empresa a todos mis amigos y familiares!",
     "La experiencia de compra fue fluida y sin complicaciones. Estoy muy impresionado con la atención al detalle y la rapidez en la entrega",
     "¡Finalmente encontré lo que estaba buscando! Los productos superaron mis expectativas y el equipo de soporte fue excepcional en todo momento."
   ],
-  "section-six": {
+  "section-seven": {
     "title": "Empieza a trabajar con nosotros",
     "link": {
       "text": "Comenzar",

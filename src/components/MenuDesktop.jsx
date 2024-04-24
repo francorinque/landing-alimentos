@@ -6,15 +6,23 @@ const MenuDesktop = () => {
   const { MENU_LINKS } = data;
 
   return (
-    <ul className="hidden md:flex md:items-center md:gap-4">
+    <ul className='hidden md:flex md:items-center md:gap-4'>
       {MENU_LINKS.map((link) => (
         <li key={link.id}>
-          <CustomLink href={link.href}>{link.text}</CustomLink>
+          {link.isExternal ? (
+            <CustomLink href={link.href} target='_blank' rel='noreferrer'>
+              {link.text}
+            </CustomLink>
+          ) : (
+            <CustomLink href={link.href}>{link.text}</CustomLink>
+          )}
         </li>
       ))}
       <li>
         <Button>
-          <a href={data["section-four"].link}>Contactar</a>
+          <a href={data["section-five"].link} target='_blank' rel='noreferrer'>
+            Contactar
+          </a>
         </Button>
       </li>
     </ul>

@@ -1,4 +1,5 @@
 import data from "../mock/data.json";
+import Button from "./ui/Button";
 import CustomLink from "./ui/CustomLink";
 
 const MenuMobile = ({ isOpen, onClick }) => {
@@ -19,10 +20,27 @@ const MenuMobile = ({ isOpen, onClick }) => {
       `}
       >
         {data["MENU_LINKS"].map((link) => (
-          <li key={link.id} className="p-2" onClick={onClick}>
-            <CustomLink href={link.href}>{link.text}</CustomLink>
+          <li key={link.id} className='p-2' onClick={onClick}>
+            {link.isExternal ? (
+              <CustomLink href={link.href} target='_blank' rel='noreferrer'>
+                {link.text}
+              </CustomLink>
+            ) : (
+              <CustomLink href={link.href}>{link.text}</CustomLink>
+            )}
           </li>
         ))}
+        <li className='p-2'>
+          <Button>
+            <a
+              href={data["section-five"].link}
+              target='_blank'
+              rel='noreferrer'
+            >
+              Contactar
+            </a>
+          </Button>
+        </li>
       </ul>
     </div>
   );

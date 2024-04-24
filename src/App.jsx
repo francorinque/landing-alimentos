@@ -7,31 +7,35 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Quotes from "./components/Quotes";
 import Stats from "./components/Stats";
-import GetStarted from "./components/GetStasted";
+import GetStarted from "./components/GetStarted";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <main className=" main-gradient w-full min-h-screen min-w-[250px]">
+    <main className=' main-gradient w-full min-h-screen min-w-[250px]'>
       <NavBar />
       <section>
         <Hero />
         <Stats />
       </section>
       <Layout>
-        <section className="py-[70px]">
+        <section className='py-[70px]'>
           <Solutions />
         </section>
-        <section className="py-[90px]">
+        <section className='py-[90px]'>
           <Gallery />
         </section>
-        <section className="py-[90px]">
+        <section className='py-[90px]'>
           <Contact />
         </section>
-        <section className="py-[90px]">
+        <section className='py-[90px]'>
           <Quotes />
         </section>
-        <section className="py-[90px]">
+        <section className='py-[90px]'>
           <GetStarted />
+        </section>
+        <section className='py-[90px]'>
+          <Projects />
         </section>
       </Layout>
       <Footer />
