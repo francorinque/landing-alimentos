@@ -54,8 +54,11 @@
   ],
   "logo": "https://res.cloudinary.com/dj0postuh/image/upload/v1713367161/logo.svg",
   "section-one": {
-    "title": "Reimagina tu espacio de trabajo",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Transformando la Distribución de Alimentos",
+    "subtitle": {
+      "paragraph1": "En ReduceRiseDistribution, nos enorgullece liderar una revolución en la industria de la distribución de alimentos. Somos más que una empresa; somos agentes del cambio, impulsados por una misión clara: reducir las mermas en la cadena de distribución de alimentos y fomentar un futuro más sostenible.",
+      "paragraph2": "Nuestra plataforma innovadora está diseñada para abordar uno de los desafíos más apremiantes de la industria alimentaria: el desperdicio. Con tecnología de vanguardia y un enfoque centrado en los datos, facilitamos la optimización de la cadena de suministro, desde la producción hasta el consumidor final."
+    },
     "cta": {
       "text": "Ver más",
       "href": "#"
@@ -85,61 +88,60 @@
     ]
   },
   "section-two": {
-    "title": "Soluciones para tu sueño",
+    "title": "Reduce las mermas, aumenta tu impacto.",
     "items": [
       {
         "id": 1,
-        "title": "Arquitectura",
-        "desc": "Agrega múltiples enlaces en Instagram en lugar de solo uno.",
+        "title": "Quiénes somos",
+        "desc": "En Reduce Rise Distribution, estamos comprometidos con la transformación del panorama de la distribución de alimentos. Nos especializamos en ofrecer una plataforma innovadora que aborda el desafío de las mermas en la distribución de alimentos de manera inteligente y efectiva.",
         "icon": "https://res.cloudinary.com/dj0postuh/image/upload/f_auto,q_auto/v1/icons/xq9reerpdggpbbjv46xx"
       },
       {
         "id": 2,
-        "title": "Diseño interior",
-        "desc": "Fácil comunicación con tus clientes.",
+        "title": "Misión",
+        "desc": "Nuestra misión es diseñar, desarrollar e implementar una plataforma inteligente de compra online que no solo simplifique el proceso de compra, sino que también reduzca significativamente las mermas en la distribución de alimentos. Buscamos mejorar la eficiencia en la cadena de suministro y contribuir al uso más responsable de los recursos alimentarios.",
         "icon": "https://res.cloudinary.com/dj0postuh/image/upload/f_auto,q_auto/v1/icons/qwfumt6qdls1qa5k9jdl"
       },
       {
         "id": 3,
-        "title": "Buenas raíces",
-        "desc": "Capte clientes potenciales y haga crecer su negocio con ellos.",
+        "title": "Visión",
+        "desc": "Nuestra visión es ser líderes en la reducción de mermas en la distribución de alimentos a nivel global. Aspiramos a crear un mundo donde la tecnología y la colaboración entre proveedores y consumidores permitan un sistema de distribución más sostenible y eficiente.",
         "icon": "https://res.cloudinary.com/dj0postuh/image/upload/f_auto,q_auto/v1/icons/qxokkzrrm05mxkhgies2"
       }
     ]
   },
   "section-three": {
-    "title": "Trabajos seleccionados",
+    "title": "Únete a nosotros en nuestro viaje hacia una distribución de alimentos más inteligente, más eficiente y más sostenible. ",
     "photos": [
       {
         "id": 1,
-        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/m97zli5gtgopz4hdpbld.webp",
-        "alt": "vegetales"
+        "url": "/camion.jpg",
+        "alt": "camion con alimentos"
       },
       {
         "id": 2,
-        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/edvjtqtyxsg6kfefwt0c.webp",
-        "alt": "vegetales"
+        "url": "/repositor.jpg",
+        "alt": "repositor con manzanas"
       },
       {
         "id": 3,
-        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/z7ipbnwsbauo6cr3wmit.webp",
-        "alt": "vegetales"
+        "url": "/celular-en-supermercado.jpg",
+        "alt": "hombre viendo su celular en un supermercado"
       },
       {
         "id": 4,
-        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/tt0rwabi8imforkyjqeu.webp",
-        "alt": "vegetales y carne"
+        "url": "/celular.jpg",
+        "alt": "celular en un supermercado"
       },
       {
         "id": 5,
         "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/rje3cxle3ov7obgmqs2j.webp",
         "alt": "agricultor"
       },
-
       {
         "id": 6,
-        "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366392/gallery/w7efreqwcvfrir8wttah.webp",
-        "alt": "personas sonriendo"
+        "url": "/mujer-sonriendo.jpg",
+        "alt": "mujer sonriendo en un supermercado"
       }
     ]
   },
@@ -176,11 +178,17 @@
     "¡Finalmente encontré lo que estaba buscando! Los productos superaron mis expectativas y el equipo de soporte fue excepcional en todo momento."
   ],
   "section-seven": {
-    "title": "Empieza a trabajar con nosotros",
-    "link": {
-      "text": "Comenzar",
-      "href": "#"
-    },
-    "img": "https://res.cloudinary.com/dj0postuh/image/upload/v1713393893/getstarted.webp"
+    "title": "Únete a nosotros",
+    "images": ["/unete-a-nosotros.jpg", "/unete-a-nosotros-woman.avif"],
+    "text": {
+      "one": {
+        "title": "Qué nos hace diferentes:",
+        "desc": "En Reduce Rise Distribution, nos destacamos por nuestra plataforma inteligente que utiliza análisis de datos y aprendizaje automático para generar sugerencias de productos personalizadas, facilitar compras en múltiples supermercados, permitir la realización de pujas por productos y conectar a proveedores para reducir mermas y comercializar productos perecederos. Nuestra tecnología innovadora nos permite abordar el problema de las mermas de manera integral y eficaz."
+      },
+      "two": {
+        "title": "Por qué confiar en nosotros:",
+        "desc": "Puedes confiar en nosotros porque estamos comprometidos con la excelencia, la innovación y la sostenibilidad. Nuestra plataforma ha sido diseñada con los más altos estándares de calidad y seguridad, y nuestro equipo está dedicado a proporcionar un servicio excepcional a nuestros clientes. Además, tenemos una sólida trayectoria de éxito y hemos sido reconocidos por nuestra capacidad para ofrecer soluciones efectivas en la reducción de mermas en la distribución de alimentos."
+      }
+    }
   }
 }
