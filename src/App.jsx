@@ -1,14 +1,13 @@
-import Contact from "./components/Contact";
-import Hero from "./components/Hero";
-import NavBar from "./components/NavBar";
-import Layout from "./components/ui/Layout";
-import Solutions from "./components/Solutions";
-import Gallery from "./components/Gallery";
-import Footer from "./components/Footer";
-import Quotes from "./components/Quotes";
-import Stats from "./components/Stats";
-import GetStarted from "./components/GetStarted";
-import Projects from "./components/Projects";
+import Contact from './components/Contact';
+import Hero from './components/Hero';
+import NavBar from './components/NavBar';
+import Layout from './components/ui/Layout';
+import Solutions from './components/Solutions';
+import Gallery from './components/Gallery';
+import Footer from './components/Footer';
+import Quotes from './components/Quotes';
+import Projects from './components/Projects';
+import JoinUs from './components/JoinUs';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <NavBar />
       <section>
         <Hero />
-        <Stats />
       </section>
       <Layout>
         <section className='py-[70px]'>
@@ -32,10 +30,10 @@ function App() {
           <Quotes />
         </section>
         <section className='py-[90px]'>
-          <GetStarted />
+          <Projects />
         </section>
         <section className='py-[90px]'>
-          <Projects />
+          <JoinUs />
         </section>
       </Layout>
       <Footer />
