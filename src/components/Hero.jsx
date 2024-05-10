@@ -31,7 +31,11 @@ const Hero = () => {
           {data['section-one'].subtitle.paragraph2}
         </p>
         <Button css='mt-4'>
-          <a href={data['section-one'].cta.href}>
+          <a
+            href={data['section-one'].cta.href}
+            target='_blank'
+            rel='noreferrer'
+          >
             {data['section-one'].cta.text}
           </a>
         </Button>
