@@ -33,7 +33,7 @@
     {
       "id": 6,
       "text": "Blog",
-      "href": "https://midu.dev/",
+      "href": "reducerisedistribution.blog.smartbiderdev.com",
       "isExternal": true
     },
     {
@@ -61,7 +61,7 @@
     },
     "cta": {
       "text": "Ver más",
-      "href": "#"
+      "href": "reducerisedistribution.blog.smartbiderdev.com"
     },
     "img": "https://res.cloudinary.com/dj0postuh/image/upload/v1713366245/hero-img.webp",
     "items": [
@@ -146,31 +146,22 @@
     ]
   },
   "section-four": {
-    "title": "Nuestros proyectos",
+    "title": "Nuestros proyecto",
     "projects": [
       {
         "id": 1,
-        "title": "Proyecto 1",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "PLATAFORMA PARA LA REDUCCIÓN DE MERMAS EN LA DISTRIBUCIÓN DE ALIMENTACIÓN",
+        "desc": "¡Convierte desperdicio en oportunidades con nuestra plataforma para la reducción de mermas en la distribución de alimentos!",
         "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713986215/u9nqnopc95b5tfas3e54.webp",
-          "alt": "projecto 1"
-        }
-      },
-      {
-        "id": 2,
-        "title": "Proyecto 2",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "img": {
-          "url": "https://res.cloudinary.com/dj0postuh/image/upload/v1713986215/u9nqnopc95b5tfas3e54.webp",
-          "alt": "projecto 2"
+          "url": "/project.webp",
+          "alt": "PLATAFORMA PARA LA REDUCCIÓN DE MERMAS EN LA DISTRIBUCIÓN DE ALIMENTACIÓN"
         }
       }
     ]
   },
   "section-five": {
     "title": "¿Tienes curiosidad?",
-    "link": "mailto:9Gp2K@example.com"
+    "link": "mailto:reducerisedistribution@gmail.com"
   },
   "section-six": [
     "Increíble servicio al cliente y productos de alta calidad. ¡Definitivamente recomendaré esta empresa a todos mis amigos y familiares!",
